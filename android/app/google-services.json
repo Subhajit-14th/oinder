@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "794024561466",
+    "project_id": "oinder-d7fbe",
+    "storage_bucket": "oinder-d7fbe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794024561466:android:d109b1aa69c6d1d8f51e03",
+        "android_client_info": {
+          "package_name": "com.aistudio.oinder.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794024561466-9etghr2vmp23pmeb8m3142plupgnlt09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aistudio.oinder.app",
+            "certificate_hash": "89701da06b59b7a0db5ae72882f4fd5515ad3650"
+          }
+        },
+        {
+          "client_id": "794024561466-adscs12kku4n0nhul3q63lailkl91eaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aistudio.oinder.app",
+            "certificate_hash": "f1795a59a0754487f10a512973dd412e9a0ae1f7"
+          }
+        },
+        {
+          "client_id": "794024561466-ti3gpi7nil5u3bil38q2privmg03d75m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aistudio.oinder.app",
+            "certificate_hash": "8a651348e2332287e064540e9578b6841321244c"
+          }
+        },
+        {
+          "client_id": "794024561466-ot2ddquq3jo9kg6bjndjsgc3jormhs9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk8-agYVVdZYamZO6jHImmcaKMbyyCAy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794024561466-ot2ddquq3jo9kg6bjndjsgc3jormhs9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
