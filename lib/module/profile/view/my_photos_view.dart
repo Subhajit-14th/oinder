@@ -144,7 +144,6 @@ class _MyPhotosViewState extends ConsumerState<MyPhotosView> {
                           );
                         }
                         final localIndex = index - photos.length;
-
                         if (localIndex < localImages.length) {
                           return _buildLocalImageCard(
                             localImages[localIndex],

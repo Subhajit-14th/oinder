@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:oinder/core/api/api_config.dart';
 import 'package:oinder/core/api/api_service.dart';
 import 'package:oinder/module/authScreen/model/auth_email_otp_verify_api_response_model.dart';

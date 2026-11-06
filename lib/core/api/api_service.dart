@@ -3,7 +3,6 @@ import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:oinder/core/network/dio_client.dart';
 import 'package:oinder/core/network/network_error_handler.dart';
-import 'package:oinder/utils/utils.dart';
 
 class ApiService {
   final Dio _dio;
