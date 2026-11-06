@@ -17,7 +17,6 @@ class MyPhotosView extends ConsumerStatefulWidget {
 
 class _MyPhotosViewState extends ConsumerState<MyPhotosView> {
   double _uploadProgress = 0;
-  bool _isUploading = false;
   File? _uploadingImage;
   final ImagePicker _picker = ImagePicker();
 
@@ -35,8 +34,6 @@ class _MyPhotosViewState extends ConsumerState<MyPhotosView> {
 
     setState(() {
       _uploadingImage = image;
-
-      _isUploading = true;
 
       _uploadProgress = 0;
     });
@@ -76,8 +73,6 @@ class _MyPhotosViewState extends ConsumerState<MyPhotosView> {
           if (data != null) {
             setState(() {
               _uploadingImage = null;
-
-              _isUploading = false;
             });
 
             ref.read(myPhotosApiProvider.notifier).getMyPhotos();

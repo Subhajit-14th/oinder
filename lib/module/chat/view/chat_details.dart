@@ -192,7 +192,7 @@ class _ChatDetailsState extends ConsumerState<ChatDetails> {
                     itemCount: messages.length,
                     itemBuilder: (context, index) {
                       final chat = messages[index];
-                      final isMe = chat.senderId == data.user1?.id;
+                      // final isMe = chat.senderId == data.user1?.id;
                       return _chatBubble(
                         message: chat.text ?? "",
                         time: chat.timeAgo ?? "",
